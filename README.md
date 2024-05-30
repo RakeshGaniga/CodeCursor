@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# CodeCursor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CodeCursor, a lightweight and user-friendly web-based code editor inspired by CodePen. CodeCursor allows developers to write HTML, CSS, and JavaScript code in separate tabs and view the live output in real-time.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Three Editing Tabs**: Separate tabs for HTML, CSS, and JavaScript, providing an organized workspace for coding.
+- **Live Preview**: Real-time output window that updates as you type, giving immediate feedback on your code.
+- **Syntax Highlighting**: Enhance readability with syntax highlighting for HTML, CSS, and JavaScript.
+- **Responsive Design**: User-friendly interface that works seamlessly on various devices.
+- **Lightweight and Fast**: Minimal dependencies for quick loading and smooth performance.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To run CodeCursor locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/RakeshGaniga/CodeCursor.git
+    cd CodeCursor
+    ```
 
-### `npm run build`
+2. **Open the `index.html` file**:
+    You can open `index.html` directly in your web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Alternatively, you can use a simple HTTP server for a better development experience:
+    ```bash
+    python -m http.server 8000
+    ```
+    Then, navigate to `http://localhost:8000` in your web browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Open the application**: Launch CodeCursor in your web browser.
+2. **Write your code**:
+    - Use the **HTML** tab to write your HTML code.
+    - Use the **CSS** tab to style your HTML.
+    - Use the **JS** tab to add interactivity with JavaScript.
+3. **View the output**: The output window will update in real-time as you type in the respective tabs.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you have any ideas, bug reports, or improvements, feel free to open an issue or submit a pull request. To contribute:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/YourFeatureName
+    ```
+3. **Commit your changes**:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. **Push to the branch**:
+    ```bash
+    git push origin feature/YourFeatureName
+    ```
+5. **Open a pull request**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Please ensure your code adheres to the coding standards and includes relevant tests.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Thank you for using CodeCursor! If you have any questions or need further assistance, feel free to reach out.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize this README to fit your project's specific needs.
