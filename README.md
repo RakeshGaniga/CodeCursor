@@ -1,6 +1,7 @@
 # CodeCursor
 
 Welcome to CodeCursor, a lightweight and user-friendly web-based code editor inspired by CodePen. CodeCursor allows developers to write HTML, CSS, and JavaScript code in separate tabs and view the live output in real-time.
+![Screenshot 2024-05-30 235715](https://github.com/RakeshGaniga/CodeCursor/assets/142373144/aabe2f4d-b12f-4ea7-89e1-f201ac587d4d)
 
 ## Table of Contents
 
